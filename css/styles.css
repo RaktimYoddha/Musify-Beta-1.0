@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Indie+Flower&family=Poppins:wght@400;500;600;700&family=Satisfy&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.full {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-family: 'Satisfy',
+    cursive;
+  font-size: 70px;
+
+}
+
+.p1 {
+  color: white;
+  font-family: 'Indie Flower',
+    cursive;
+  font-size: 50px;
+}
+
+.p2 {
+  color: white;
+  font-family: 'Dancing Script',
+    cursive;
+  font-size: 30px;
+}
+
+button {
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  font-size: 23px;
+  font-family: 'Ubuntu',
+    sans-serif;
+}

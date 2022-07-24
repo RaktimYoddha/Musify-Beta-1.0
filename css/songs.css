@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@700&family=Indie+Flower&family=Poppins:wght@400;500;600;700&family=Satisfy&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.full {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.song {
+  margin: 20px;
+  background-color: #111;
+  min-height: 90vh;
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.song .bg {
+  width: 100%;
+  height: 80vh;
+  background: #111;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+i {
+  margin-top: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.buttons i {
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  background: transparent;
+  border-color: transparent;
+}
+
+.song .bgunder {
+  margin-top: 20px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 40px;
+  color: white;
+  font-family: 'Ubuntu',
+    sans-serif;
+
+}
