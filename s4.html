@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heat Waves</title>
+  <link rel="stylesheet" href="css/songs.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="full">
+    <div class="song">
+      <div class="bg">
+        <div class="bgunder"><img class="img" src="music/bnr/heat-waves.png" alt="">
+          <h1>Heat Waves - Glass Animals</h1>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="pause"><i class="fas fa-pause"></i></button>
+        <button class="play"><i class="fas fa-play"></i></button>
+        <button class="restart"><i class="fas fa-redo"></i></button>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    var audio = new Audio('music/HeatWaves.mp3');
+
+    document.querySelector(".play").addEventListener("click", function () {
+      audio.play();
+    });
+
+    document.querySelector(".pause").addEventListener("click", function () {
+      audio.pause();
+    });
+
+    document.querySelector(".restart").addEventListener("click", function () {
+      audio.currentTime = 0;
+    });
+  </script>
+</body>
+
+</html>
